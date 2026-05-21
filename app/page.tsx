@@ -68,7 +68,7 @@ export default function Tracker() {
     setEditingCode(null);
   };
 
-  if (!counts) return <div className="loading">CONNECTING TO DATABASE...</div>;
+  if (!counts) return <div className="loading">Archeiving your progress...</div>;
 
   const maxVal = Math.max(...Object.values(counts), 1);
 
